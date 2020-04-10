@@ -1,0 +1,11 @@
+html
+  include partials/head
+  
+  body
+    h1 &#x1F986; DUCK HUNT - HIGH SCORES &#x1F986;
+    table
+      for score in scores
+        tr
+          td= score.place
+          td= score.initials
+          td= score.score
