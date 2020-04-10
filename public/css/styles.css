@@ -1,0 +1,21 @@
+*{
+  text-align:  center; /*I'll never get to do this again in my life*/
+}
+
+html{
+    background-color: black;
+    color: white;
+}
+body{
+  margin: 0 auto;
+  padding:10px 0;
+  width: 75%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid white;
+  padding: 10px;
+}
